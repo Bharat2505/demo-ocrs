@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OCR Demo</title>
+</head>
+<body>
+
+	
+	
+	<h1 align="center" style="font-family: 'Times New Roman', Times, serif;color: #000;">OCR Demo</h1>
+
+	<form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+		<table align="center">
+			<tr>
+				<td align="left"> <input type="file" name="image" id="image" ></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Upload" >
+				</td>
+			</tr>
+		</table>
+		
+		
+	</form>
+</body>
+<style>
+	body{
+		background-image: url('https://www.shutterstock.com/image-vector/optical-character-recognition-ocr-application-600w-1881558316.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%110%;
+
+	}
+</style>
+</html>
